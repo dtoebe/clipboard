@@ -1,4 +1,7 @@
 
+#![crate_type = "lib"]
+#![crate_name = "clipboard"]
+
 use std::io::{Read, Write};
 use std::process::{exit, Command, Stdio};
 
